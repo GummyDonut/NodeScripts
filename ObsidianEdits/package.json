@@ -1,0 +1,15 @@
+{
+  "name": "node-obsidian-edits",
+  "version": "1.0.0",
+  "description": "Node scripts to edit my obsidian notes",
+  "main": "index.js",
+  "scripts": {
+    "edit-zettalkasten": "node ./index.js \"D:\\Zettelkasten\"" 
+  },
+  "author": "Peter Hoang",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^6.0.1",
+    "moment": "^2.30.1"
+  }
+}
